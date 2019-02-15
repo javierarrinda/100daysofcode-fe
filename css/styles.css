@@ -1,0 +1,45 @@
+nav{
+    height: 5vh;
+    top: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex; 
+    flex-flow: row;
+}
+
+li{
+    margin-left: 1vw;
+}
+
+.big-centered-div{
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding-top: 1vh;
+}
+
+.second-div{
+    height: 10vh;
+    margin-top: 0px;
+    background-color: lightblue;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2vh;
+}
